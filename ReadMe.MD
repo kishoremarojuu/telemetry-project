@@ -176,7 +176,6 @@ gpu-telemetry-pipeline/
 - **Latency**: Alert processing within 1-2 seconds of metric arrival
 - **Storage**: Efficient time-series indexing for fast queries
 
-## Interview Discussion Points
 
 ### Why This Architecture?
 
@@ -228,9 +227,7 @@ docker-compose exec postgres psql -U telemetry -d gpu_telemetry \
 curl http://localhost:8080/api/v1/alerts/active | jq '.[] | select(.severity=="critical")'
 ```
 
-## License
 
-MIT
 
 ## Author
 
