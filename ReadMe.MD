@@ -228,7 +228,3 @@ curl http://localhost:8080/api/v1/alerts/active | jq '.[] | select(.severity=="c
 ```
 
 
-
-## Author
-
-Built as a demonstration project for NVIDIA DGX Cloud Fleet Management role.
