@@ -4,8 +4,6 @@ A production-grade GPU telemetry system demonstrating real-world fleet managemen
 
 ## What This Project Demonstrates
 
-This project showcases the exact skills needed for the **Senior Software Engineer, Fleet Management - DGX Cloud** role at NVIDIA:
-
 ✅ **RESTful API Design** - Query nodes, metrics, and alerts  
 ✅ **High-volume Data Ingestion** - Kafka streaming pipeline handling thousands of GPUs  
 ✅ **Scalable Cloud Services** - Microservices architecture with Go  
